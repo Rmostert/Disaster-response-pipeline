@@ -49,11 +49,11 @@ def clean_data(df):
     categories.columns = category_colnames
 
     for column in categories:
-    # set each value to be the last character of the string
-    categories[column] = categories[column].apply(lambda row: row[-1])
-    
-    # convert column from string to numeric
-    categories[column] = categories[column].astype(int)
+        # set each value to be the last character of the string
+        categories[column] = categories[column].apply(lambda row: row[-1])
+
+        # convert column from string to numeric
+        categories[column] = categories[column].astype(int)
 
     df.drop('categories',axis=1,inplace=True)
 
@@ -68,11 +68,6 @@ def clean_data(df):
     df = df_dedup.drop_duplicates(subset='message',keep=False)
 
     return df
-
-
-
-
-print(category_colnames)
 
 
 def save_data(df, database_filename):
