@@ -3,7 +3,7 @@
 The Disaster response pipeline project was one of the projects I did for Udacity's Data Science Nanodegree program. The aim of the project was to build a Natural Language Processing (NLP) pipeline that:
 
 * Extract, Transforms and load the disaster response dataset
-* Creating meaningful features from the data using tokenization and term-frequency times inverse document-frequency
+* Creating meaningful features from the data using a 'bag of words' approach
 * Training a model on new data by performing grid search using a Multi-layer perceptron (MLP) algorithm
 * Saving the model for classifying new messages
 
