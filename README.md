@@ -11,7 +11,7 @@ I made use of disaster data from [Figure Eight](https://www.figure-eight.com/) t
 
 ![Alt text](Interface1.png "Screenshot 1")
 
-![Alt text](relative/Interface 2.png?raw=true "Title 2")
+![Alt text](Interface2.png?raw=true "Screenshot 2")
 
 ## Installation
 ### Dependencies
