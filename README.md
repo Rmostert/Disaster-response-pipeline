@@ -9,6 +9,9 @@ The Disaster response pipeline project was one of the projects I did for Udacity
 
 I made use of disaster data from [Figure Eight](https://www.figure-eight.com/) to build a model for an API that classifies disaster messages.
 
+![Alt text](relative/Disaster-response-pipeline/Interface 1.png?raw=true "Title")
+![Alt text2](relative/Disaster-response-pipeline/Interface 2.png?raw=true "Title")
+
 ## Installation
 ### Dependencies
 
