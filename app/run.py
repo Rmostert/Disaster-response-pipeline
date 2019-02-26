@@ -29,7 +29,6 @@ model = joblib.load("../models/classifier.pkl")
 def index():
 
     # extract data needed for visuals
-    # TODO: Below is an example - modify to extract data for your own visuals
 
     type_counts = df.iloc[:,4:].sum()
     top10 = type_counts.sort_values(ascending=False)[:10]
@@ -38,7 +37,7 @@ def index():
 
 
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
+
     graphs = [
         {
             'data': [
